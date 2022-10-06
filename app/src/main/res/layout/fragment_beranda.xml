@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+
+    tools:context=".BerandaFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rondedlayer"
+        android:elevation="10dp"
+
+        app:cardCornerRadius="30dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rondedlayer" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/roundedwhite"
+            android:elevation="10dp"
+
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/caltexxsekolah" />
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="170dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/roundedwhite"
+                android:fontFamily="@font/gilroy"
+                android:gravity="center"
+                android:paddingTop="50dp"
+                android:text="Panduan Sosialisasi"
+                android:textColor="@color/blue"
+                android:textSize="29dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy"
+                android:gravity="left"
+                android:text="1. Perkenalan dari pihak pelaku sosialisasi"
+                android:textColor="#333333"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/gilroy"
+                android:gravity="left"
+                android:text="2. Penjabaran materi tentang pentingnya kuliah"
+                android:textColor="#333333"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/gilroy"
+                android:gravity="left"
+                android:paddingRight="10dp"
+                android:text="3. Pengenalan tentang jenis perkuliahan (politeknik/universitas/sekolah tinggi/jenis lainnya)"
+                android:textColor="#333333"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/gilroy"
+                android:gravity="left"
+                android:paddingRight="10dp"
+                android:text="4. Penjabaran materi tentang kampus (mulai dari alamat, akreditasi, prestasi, alumni, hingga jalur masuk)"
+                android:textColor="#333333"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/gilroy"
+                android:gravity="left"
+                android:paddingRight="10dp"
+                android:text="5. Sesi tanya jawab"
+                android:textColor="#333333"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

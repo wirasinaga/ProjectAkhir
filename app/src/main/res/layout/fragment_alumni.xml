@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AlumniFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_data_bukti"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+
+        tools:listitem="@layout/item_data_bukti" />
+
+<!--    Masih bingung aku nih tur
+        sama dimaps nya juga aku bingung
+        yang alumni ini cuma nampilin aja tur-->
+</FrameLayout>

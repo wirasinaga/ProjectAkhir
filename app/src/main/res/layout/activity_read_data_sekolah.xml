@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ReadDataSekolahActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+<androidx.cardview.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    app:cardCornerRadius="20dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rondedlayer"
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:elevation="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/roundedwhite"
+
+                app:cardCornerRadius="30dp">
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/foto_sekolah"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ic_launcher_background" />
+            </androidx.cardview.widget.CardView>
+</androidx.cardview.widget.CardView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundedwhite"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gilroylight"
+                    android:text="Alamat Sekolah :"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/alamat"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/gilroylight"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/ab"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/roundedwhite"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/aa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gilroylight"
+                    android:text="Kontak Sekolah :"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/kontak"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/gilroylight"
+                    android:layout_below="@id/aa"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/roundedwhite"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gilroylight"
+                    android:text="Lokasi :"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+<androidx.cardview.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="6dp"
+    android:layout_gravity="center"
+    app:cardCornerRadius="20dp">
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/mapppp"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mappss" />
+</androidx.cardview.widget.CardView>
+            <!--            <Button-->
+            <!--                android:id="@+id/btn_alumni"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Alumni"-->
+            <!--                android:layout_marginStart="100dp"-->
+            <!--                android:layout_marginEnd="100dp"-->
+            <!--                android:background="@drawable/btton"-->
+            <!--                android:textColor="@color/white"-->
+            <!--                android:layout_marginTop="10dp"/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List Alumni"
+                android:fontFamily="@font/gilroylight"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_alumni"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

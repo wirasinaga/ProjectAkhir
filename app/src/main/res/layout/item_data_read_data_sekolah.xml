@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:elevation="100dp"
+    android:background="@color/transparent_black_hex_1"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="10dp"
+    android:id="@+id/cv_listItemReadDataSekolah">
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:gravity="center"-->
+<!--            android:padding="16dp">-->
+<!--            <ImageView-->
+<!--                android:layout_width="400dp"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:src="@drawable/ic_launcher_background"-->
+<!--                android:id="@+id/foto_sekolah"/>-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginStart="5dp">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/ab"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Alamat Sekolah :"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="16dp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/jamsampai"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_below="@id/ab"-->
+<!--                    android:text="Pekanbaru "-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="16dp" />-->
+<!--            </RelativeLayout>-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginStart="5dp">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/aa"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Kontak Sekolah :"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="16dp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/jamselesai"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_below="@id/aa"-->
+<!--                    android:text="081234567890 "-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="16dp" />-->
+<!--            </RelativeLayout>-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginStart="5dp">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/ac"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Lokasi :"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="16dp" />-->
+<!--            </RelativeLayout>-->
+<!--            <ImageView-->
+<!--                android:layout_width="300dp"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:src="@drawable/mappss"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:id="@+id/mapppp"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_alumni"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Alumnu"-->
+<!--                android:layout_marginStart="100dp"-->
+<!--                android:layout_marginEnd="100dp"-->
+<!--                android:background="@drawable/btton"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:layout_marginTop="10dp"/>-->
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+</LinearLayout>

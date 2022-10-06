@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahSekolahActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:paddingTop="20dp">
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:layout_marginRight="30dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginBottom="10dp">-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/addfotosekolahaaaa"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:background="@color/transparent_black_hex_8"-->
+<!--                    android:backgroundTint="@color/transparent_black_percent_50"-->
+<!--                    android:paddingLeft="20dp"-->
+<!--                    android:paddingRight="20dp"-->
+<!--                    android:text="Upload Foto Sekolah"-->
+<!--                    android:textAllCaps="false"-->
+<!--                    android:textColor="@color/white" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/fotosekolahaa"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:scaleType="fitXY"-->
+<!--                    android:src="@drawable/image_placeholder" />-->
+<!--            </RelativeLayout>-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:id="@+id/addFotosekolahBukti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@color/transparent_black_hex_8"
+                    android:backgroundTint="@color/transparent_black_percent_50"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Upload Foto Sekolah"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/buktifotosekolah"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/image_placeholder" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/bbtton">
+
+
+                <EditText
+                    android:id="@+id/et_namaguru"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/roundround"
+                    android:drawablePadding="10dp"
+                    android:layout_marginRight="9dp"
+                    android:hint="Nama Guru"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:paddingBottom="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/bbtton">
+
+
+                <EditText
+                    android:id="@+id/et_kontaksekolah"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/roundround"
+                    android:drawablePadding="10dp"
+                    android:layout_marginRight="9dp"
+                    android:hint="Kontak Sekolah"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:paddingBottom="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/bbtton">
+
+
+                <EditText
+                    android:id="@+id/et_kendala"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/roundround"
+                    android:drawablePadding="10dp"
+                    android:layout_marginRight="9dp"
+                    android:hint="Kendala Yang Dihadapi"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:id="@+id/addbuktifoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@color/transparent_black_hex_8"
+                    android:backgroundTint="@color/transparent_black_percent_50"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Upload Foto Sekolah"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/buktifoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/image_placeholder" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:paddingBottom="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/bbtton">
+
+
+                <EditText
+                    android:id="@+id/et_catatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/roundround"
+                    android:drawablePadding="10dp"
+                    android:layout_marginRight="9dp"
+                    android:hint="Catatan"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="13dp" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:id="@+id/addbuktifotososialisasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@color/transparent_black_hex_8"
+                    android:backgroundTint="@color/transparent_black_percent_50"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Upload Foto Sekolah"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/buktifotososialisasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/image_placeholder" />
+            </RelativeLayout>
+            <Button
+                android:id="@+id/btn_bukti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Input Bukti"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="120dp"
+                android:background="@drawable/btton"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

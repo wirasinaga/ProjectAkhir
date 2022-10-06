@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:elevation="100dp"
+    android:focusable="true"
+    android:background="@color/transparent_black_hex_1"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="10dp"
+    android:id="@+id/cv_listItemReadDataBukti">
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="16dp">-->
+<!--        <ImageView-->
+<!--            android:layout_width="400dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:src="@drawable/ic_launcher_background"-->
+<!--            android:id="@+id/foto_sekolah"/>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginStart="5dp">-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Selesai Pada Pukul :"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16dp"-->
+<!--                android:id="@+id/ab"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="13.00 wib "-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16dp"-->
+<!--                android:layout_below="@id/ab"-->
+<!--                android:id="@+id/jamsampai"/>-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginStart="5dp">-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Selesai Pada Pukul :"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16dp"-->
+<!--                android:id="@+id/aa"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="16.00 wib "-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16dp"-->
+<!--                android:layout_below="@id/aa"-->
+<!--                android:id="@+id/jamselesai"/>-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginStart="5dp">-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Nama Guru :"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16dp"-->
+<!--                android:id="@+id/ac"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Razman "-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16dp"-->
+<!--                android:layout_below="@id/ac"-->
+<!--                android:id="@+id/tv_namaguru"/>-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginStart="5dp">-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Kontak Sekolah :"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16dp"-->
+<!--                android:id="@+id/ad"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="081234567890 "-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16dp"-->
+<!--                android:layout_below="@id/ad"-->
+<!--                android:id="@+id/tv_kontaksekolah"/>-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginStart="5dp">-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Kendala :"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16dp"-->
+<!--                android:id="@+id/ae"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_kendala"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_below="@id/ae"-->
+<!--                android:text="Jalan Macet "-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16dp" />-->
+<!--        </RelativeLayout>-->
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="400dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:src="@drawable/ic_launcher_background"-->
+<!--            android:id="@+id/foto_kendala"/>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginStart="5dp">-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Catatan :"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16dp"-->
+<!--                android:id="@+id/af"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Sekolah Merespon Positif"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16dp"-->
+<!--                android:layout_below="@id/af"-->
+<!--                android:id="@+id/tv_catatan"/>-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginStart="5dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Bukti Sosialisasi :"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16dp" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="400dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:src="@drawable/ic_launcher_background"-->
+<!--            android:id="@+id/foto_sosialisasi"/>-->
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+</LinearLayout>
